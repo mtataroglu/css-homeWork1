@@ -1,0 +1,184 @@
+*{padding: 1em 2em; margin: 0; box-sizing: border-box;}
+/* "*" bir joker karakterdir
+
+Bu stilleri tüm öğelere uygulamak anlamına gelir.
+
+Bu örnekte, tüm öğeler üzerindeki kenar boşluğunu ve dolguyu 0'a ayarlamaktır. Bu, farklı öğelerdeki tüm yerel tarayıcı kenar boşluğunu/doldurmalarını ortak bir değere varsayılan olarak ayarlamak için CSS dosyalarını sıfırla ile ortaktır.*/
+
+
+.body{
+
+    background-color: rgba(219, 53, 61, 0.459);
+    font-family: 'Redressed', cursive;
+    
+}
+
+.header{
+
+text-align: center;
+padding: 1em ;
+margin-bottom: 0px;
+
+
+}
+
+#first-head{
+
+    margin: 0;
+    margin-right: 570px;
+    margin-left: 450px;
+    margin-bottom: 0px;
+    
+
+}
+
+#first-head:hover{
+
+    background-color: palevioletred;    
+    transition: all 2s ;
+}
+
+
+
+#under-head {
+
+    text-align: center;
+    background-color: rgba(48, 11, 14, 0.705);
+    box-sizing: border-box;
+    width: 90%;
+    margin:0;
+    padding: 5px;
+
+}
+
+#under-head:hover{
+
+    background-color: palevioletred;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+#logo-img {
+
+    background-color: black;
+
+}
+#logo-img:hover{
+
+    background-color: palevioletred;
+    transition: all 1s ease-out;
+
+}
+
+.topnav{
+
+    
+    padding: 5px 5px 0px 5px; /* padding şablon içindeki boşlıkları ayarlar.*/
+    font-family: 'Redressed', cursive; /**/
+    font-size: 20px;    /**/
+    text-align: center; /**/
+    cursor: pointer;    /**/
+    outline: none;      /**/
+    width: 90%;
+    margin:5px;
+    padding: 5px;
+    border: none;   /**/
+    border-radius: 10px 100px / 120px;    /* button */
+    box-shadow: 0 9px rgba(189, 92, 173, 0.397); /* box shadow attribute*/
+}
+.topnav:hover{
+
+    background-color: chocolate;
+    transition: all 3s ease-out;
+    
+}
+
+.search-div{
+
+    text-align: center;
+    float: left;
+    width: 90%;
+    padding: 0px;
+    background: rgba(219, 53, 61, 0.212);
+    color: palevioletred;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+
+}
+
+.search-div:hover{
+
+    background:palevioletred ;
+    transition: all 2s;
+
+}
+
+#search-button{
+
+    padding: 10px 15px;
+    margin-bottom:0in;
+    background-color: rgba(81, 206, 8, 0.13);
+    border-radius: 12px;
+
+}
+
+#search-button:hover{
+
+    background-color: rgb(221, 191, 151);
+    transition: all 2s
+    
+}
+
+#search-area{
+
+    background-color: rgba(179, 167, 146, 0.247);
+    
+}
+
+#search-area:hover{
+
+    background-color: rgb(233, 203, 164);
+    transition: all 2s;
+
+}
+
+.pragraf-section{
+
+        
+    width: 1100px;
+    height: 800px;
+    display: flex;
+
+    padding: 10px 50px 30px 150px;
+    justify-content: flex-start;
+    align-items: flex-start;
+   
+    
+}
+
+#main-subtitle{
+
+   color: rgba(73, 64, 53, 0.377);
+}
+
+.paragraf-div{
+
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+
+
+}
+
+.third-paragraf{
+
+    background-color: rgba(207, 80, 33, 0.356);
+
+}
+
+.second-paragraf{
+
+    background-color: rgba(172, 73, 37, 0.363);
+}
