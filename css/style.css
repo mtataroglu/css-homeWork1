@@ -220,6 +220,13 @@ margin-bottom: 0px;
     
 }
 
+.p::first-letter{
+
+    font-size: 50px;
+  color: rgb(43, 65, 163);
+
+}
+
 .paragraf-div{
 
     box-sizing: border-box;
@@ -254,8 +261,35 @@ margin-bottom: 0px;
 
 .footer{
 
+    display: flex;
+    font-size: small;
+    font-family:'Redressed', cursive;
     
+
   
 }
     
+#footer-head-1{
+
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+#footer-head-2{
+
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;  
+
+}
+
+#footer-head-3{
+
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
 
